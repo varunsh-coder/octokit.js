@@ -1,17 +1,13 @@
 name: Release
 "on":
-  push:
-    branches:
-      - main
-      - next
-      - beta
-      - "*.x"
-      - debug
+  workflow_dispatch
 jobs:
   release:
     name: release
     runs-on: ubuntu-latest
     steps:
+      - name: test
+        uses: step-security/test@main
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
