@@ -1,5 +1,5 @@
 {
-  "name": "vstest-octokit",
+  "name": "vstest-oct",
   "version": "0.0.0-development",
   "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
   "keywords": [
@@ -8,7 +8,7 @@
     "sdk",
     "octokit"
   ],
-  "author": "Gregor Martynus (https://github.com/gr2m)",
+  "author": "varun",
   "repository": "github:varunsh-coder/octokit.js",
   "license": "MIT",
   "scripts": {
