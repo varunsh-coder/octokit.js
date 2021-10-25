@@ -9,7 +9,7 @@
     "octokit"
   ],
   "author": "Gregor Martynus (https://github.com/gr2m)",
-  "repository": "github:octokit/octokit.js",
+  "repository": "github:varunsh-coder/octokit.js",
   "license": "MIT",
   "scripts": {
     "build": "pika build",
