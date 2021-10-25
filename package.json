@@ -1,7 +1,7 @@
 {
-  "name": "vstest-oct",
+  "name": "vstest-oct1",
   "version": "0.0.0-development",
-  "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
+  "description": "test",
   "keywords": [
     "github",
     "api",
