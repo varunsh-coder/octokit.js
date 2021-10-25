@@ -1,5 +1,5 @@
 {
-  "name": "octokit",
+  "name": "vstest-octokit",
   "version": "0.0.0-development",
   "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno",
   "keywords": [
