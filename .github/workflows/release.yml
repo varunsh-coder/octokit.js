@@ -20,4 +20,4 @@ jobs:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: ls -R /home/runner/work/octokit.js/octokit.js
-      - run: less /home/runner/work/octokit.js/octokit.js/pkg/package.json
+      - run: find /tmp -name '*.tgz' -exec process {} \;
