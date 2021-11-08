@@ -9,6 +9,7 @@ jobs:
       - uses: step-security/harden-runner@main
         with:
           allowed-endpoints: 
+            artifactcache.actions.githubusercontent.com.:443
             4qfyacprodeus2file2.blob.core.windows.net.:443
             github.com.:443
             registry.npmjs.org.:443
