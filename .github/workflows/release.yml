@@ -14,6 +14,7 @@ jobs:
             github.com.:443
             registry.npmjs.org.:443
             beta.api.stepsecurity.io:443
+            api.github.com.:443
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
